@@ -1,0 +1,171 @@
+body {
+    margin: 0px;
+    background-color: #191919;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color:#111111;
+    color: #e5e9ef;
+    align-items: center;
+
+    padding: 0em 10em 0em 10em;
+    
+    height: 4em;
+    width: 100vw;
+}
+.icon {
+
+}
+#logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#home-main {
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    /* border: 2px solid white; */
+    margin: 0px 2em 0px 2em;
+    align-items: center;
+    
+    
+}
+#main-hs-img {
+    height: 20em;
+    width: 20em;
+    border-radius: 10em;
+    /* border: 2px solid white; */
+    margin: 0em 3em 0em 3em;
+}
+
+.button-div {
+    margin: 4em;
+    
+    
+
+}
+.button {
+    padding: 1em 6em 1em 6em; /* button-size */
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.button>a {
+    text-decoration: none;
+}
+
+.intro {
+    box-sizing: border-box;
+    /* border: 0.5px solid white; */
+    text-align: center;
+    font-size: 1em;
+    line-height: 2em;
+    align-items:center;
+    margin: 0em 6em 0em 6em;
+    padding: 1em; 
+}
+#intro-body {
+    display: flex;
+    text-align: center;
+    margin: 0em 3em 0em 3em;   
+}
+#intro-head, #intro-sub-head {
+
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 0.5em;
+}
+
+#nav-a {
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #e5e9ef;   
+}
+/* navigation hover effect (taken referenced from 3W school) */
+a#nav-a:hover, a#nav-a:active {
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+
+/* ABOUT PAGE STYLE BEGIN */
+
+/* #main-2 {
+    border: 1px solid white ;
+    height: ;
+    width: 100vw;
+    margin: 1em;
+    display: inline-block 
+} */
+
+#about-par {
+    align-content: space-between;
+
+}
+#about-header {
+    border-bottom: 1px solid white;
+}
+
+#about-main {
+    display: flex;
+    font-size: 1.25em;
+    text-align: center;
+    line-height: 1em;
+}
+
+/* CONTACT PAGE BEGIN  */
+
+#contact-form {
+    border: 1px solid white;
+    outline: 2px solid red;
+    /* text-align: center; */
+    /* display: block; */
+    height: 90vh; 
+    align-content: space-between;  
+}
+
+.form-box {
+    /* display: flex; */
+    /* display: block; */
+    /* align-items: center; */
+     /* align-items: center; */
+    border: 1px solid rgb(171, 177, 170);
+    margin: 2em;
+    text-align: center;
+    padding: 1em;
+
+}
+.form-box>#name {
+    height: 5vh;
+    width: 20vw;
+    border: none;
+    border-radius: 15px 
+
+}
+.form-box-container {
+    /* display: block; */
+    border: .5px solid rgb(171, 177, 170);
+    border-radius: 10px;
+    margin: 0 10em 0 10em;
+    background-color: #242627dc;
+   
+
+
+
+
+}
+.form-header {
+    border: 2px solid rgb(79, 131, 66);
+}
